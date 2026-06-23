@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(dir, 'src'),
-      '@stitchkart/ui-kit-web': path.resolve(dir, '../../packages/ui-kit-web/src/index.ts'),
+      '@stitchkart/ui-kit-web': path.resolve(dir, 'src/shared/ui-kit-web/index.ts'),
     },
   },
   server: { port: 5174 },

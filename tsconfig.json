@@ -15,8 +15,8 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@stitchkart/ui-kit-web": ["../../packages/ui-kit-web/src/index.ts"],
-      "@stitchkart/ui-kit-web/*": ["../../packages/ui-kit-web/src/*"]
+      "@stitchkart/ui-kit-web": ["./src/shared/ui-kit-web/index.ts"],
+      "@stitchkart/ui-kit-web/*": ["./src/shared/ui-kit-web/*"]
     }
   },
   "include": ["src"]
